@@ -14,6 +14,7 @@ metadata:
     argocd/app-name: "fat-squirrels"
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
     sonarqube.org/project-key: maurosala_fat-squirrels
+    grafana/tag-selector: "fat-squirrels"
 spec:
   type: service
   lifecycle: experimental
@@ -38,7 +39,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     argocd/app-name: "fat-squirrels"
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
-    sonarqube.org/project-key: maurosala_fat-squirrels
+    sonarqube.org/project-key: maurosala_fat-squirrelsù
+    grafana/tag-selector: "fat-squirrels"
 spec:
   type: service
   lifecycle: experimental
