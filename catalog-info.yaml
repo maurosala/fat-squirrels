@@ -15,7 +15,7 @@ metadata:
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
     sonarqube.org/project-key: maurosala_fat-squirrels
     grafana/tag-selector: "fat-squirrels"
-    prometheus.io/rule: "container_cpu_usage_seconds_total{namespace="fat-squirrels"}"
+    prometheus.io/rule: "container_cpu_usage_seconds_total{namespace='fat-squirrels'}"
 spec:
   type: service
   lifecycle: experimental
@@ -42,7 +42,7 @@ metadata:
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
     sonarqube.org/project-key: maurosala_fat-squirrelsù
     grafana/tag-selector: "fat-squirrels"
-    prometheus.io/rule: "container_cpu_usage_seconds_total{namespace="fat-squirrels"}"
+    prometheus.io/rule: "container_cpu_usage_seconds_total{namespace='fat-squirrels'}"
 spec:
   type: service
   lifecycle: experimental
