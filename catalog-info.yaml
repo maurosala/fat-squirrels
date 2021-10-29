@@ -84,7 +84,7 @@ metadata:
   description: AWS Cloud
 spec:
   owner: "kerberus"
-#  domain: fat-squirrels-domain
+  domain: fat-squirrels-domain
   system: fat-squirrels-system
 ---
 apiVersion: backstage.io/v1alpha1
@@ -101,10 +101,10 @@ spec:
   owner: "kerberus"
   system: fat-squirrels-system
 ---
-#apiVersion: backstage.io/v1alpha1
-#kind: Domain
-#metadata:
-#  name: fat-squirrels-domain
-#  description: fat-squirrels domain
-#spec:
-#  owner: "kerberus"
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: fat-squirrels-domain
+  description: fat-squirrels domain
+spec:
+  owner: "kerberus"
