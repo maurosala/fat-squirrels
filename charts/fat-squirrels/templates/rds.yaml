@@ -39,6 +39,15 @@ spec:
     dbSubnetGroupName: default-vpc-0f75872a0d43d79ed
     vpcSecurityGroupIds:
       - sg-0a89249fcb7661906
+    tags:
+      - key: crossplane-kind
+        value: rdsinstance.database.aws.crossplane.io
+      - key: crossplane-name
+        value: fat-squirrels
+      - key: crossplane-providerconfig
+        value: aws-stack-template-provider
+      - key: kubernetes_namespace
+        value: fat-squirrels
   writeConnectionSecretToRef:
     name: rdsmariadbql-conn
     namespace: {{ .Release.Namespace }}
