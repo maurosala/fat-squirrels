@@ -36,6 +36,7 @@ metadata:
   description: ReNoMy Backend
   tags:
     - nodejs
+    - api
   links:
     - url: https://github.com/maurosala/fat-squirrels
       title: "fat-squirrels"
