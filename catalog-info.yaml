@@ -5,7 +5,7 @@ metadata:
   name: fat-squirrels-fe
   description: ReNoMy Frontend
   tags:
-    - reactjs
+    - react
   links:
     - url: https://github.com/maurosala/fat-squirrels
       title: "fat-squirrels"
@@ -35,7 +35,7 @@ metadata:
   name: fat-squirrels-be
   description: ReNoMy Backend
   tags:
-    - node
+    - node.js
     - mariadb
     - api
   links:
