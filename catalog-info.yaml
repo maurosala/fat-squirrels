@@ -63,9 +63,6 @@ kind: API
 metadata:
   name: fat-squirrels-api
   description: Todo API
-  tags:
-    - openapi
-    - mariadb
   links:
     - url: https://krateo.io
       title: "krateo.io"
