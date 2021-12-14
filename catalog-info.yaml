@@ -34,6 +34,10 @@ kind: Component
 metadata:
   name: fat-squirrels-be
   description: ReNoMy Backend
+  tags:
+    - node
+    - mariadb
+    - api
   links:
     - url: https://github.com/maurosala/fat-squirrels
       title: "fat-squirrels"
