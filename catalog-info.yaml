@@ -16,7 +16,6 @@ metadata:
     argocd/app-name: "fat-squirrels"
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
     sonarqube.org/project-key: maurosala_fat-squirrels
-    keptn.sh/project: sella
     grafana/tag-selector: "fat-squirrels"
     prometheus.io/rule: "container_cpu_usage_seconds_total{namespace='fat-squirrels'}"
     prometheus.io/alert: 'Excessive Memory Usage'
@@ -48,7 +47,6 @@ metadata:
     argocd/app-name: "fat-squirrels"
     backstage.io/kubernetes-label-selector: "component=fat-squirrels"
     sonarqube.org/project-key: maurosala_fat-squirrels
-    keptn.sh/project: sella
     grafana/tag-selector: "fat-squirrels"
     prometheus.io/rule: "container_cpu_usage_seconds_total{namespace='fat-squirrels'}"
     prometheus.io/alert: 'Excessive Memory Usage'
@@ -89,6 +87,8 @@ kind: System
 metadata:
   name: fat-squirrels-system
   description: AWS Cloud
+  annotations:
+    keptn.sh/project: sella
 spec:
   owner: "kerberus"
   domain: cloud-apps
