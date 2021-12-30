@@ -93,6 +93,8 @@ spec:
   owner: "kerberus"
   domain: cloud-apps
   system: fat-squirrels-system
+  annotations:
+    keptn.sh/project: krateo
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
