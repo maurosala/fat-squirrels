@@ -19,6 +19,8 @@ metadata:
     grafana/tag-selector: "fat-squirrels"
     prometheus.io/rule: "container_cpu_usage_seconds_total{namespace='fat-squirrels'}"
     prometheus.io/alert: 'Excessive Memory Usage'
+    keptn.sh/project: krateo
+    keptn.sh/service: demo
 spec:
   type: service
   lifecycle: experimental
