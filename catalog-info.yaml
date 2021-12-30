@@ -88,7 +88,7 @@ metadata:
   name: fat-squirrels-system
   description: AWS Cloud
   annotations:
-    keptn.sh/project: sella
+    keptn.sh/project: krateo
 spec:
   owner: "kerberus"
   domain: cloud-apps
