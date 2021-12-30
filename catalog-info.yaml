@@ -89,12 +89,12 @@ kind: System
 metadata:
   name: fat-squirrels-system
   description: AWS Cloud
+  annotations:
+    keptn.sh/project: krateo
 spec:
   owner: "kerberus"
   domain: cloud-apps
   system: fat-squirrels-system
-  annotations:
-    keptn.sh/project: krateo
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
