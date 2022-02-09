@@ -39,6 +39,7 @@ metadata:
   tags:
     - nodejs
     - api
+    - postresql
   links:
     - url: https://github.com/maurosala/fat-squirrels
       title: "fat-squirrels"
