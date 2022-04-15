@@ -12,7 +12,7 @@ metadata:
       icon: "dashboard"
     - url: https://github.com/maurosala/fat-squirrels
       title: "fat-squirrels"
-      icon: "cloud_circle"
+      icon: "cloud circle"
   annotations:
     github.com/project-slug: maurosala/fat-squirrels
     backstage.io/techdocs-ref: dir:.
